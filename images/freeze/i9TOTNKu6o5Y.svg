@@ -1,7 +1,1 @@
-<?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" width="256" height="158" viewBox="0 0 256 158">
-<rect x="0" y="0" width="256" height="158" id="0" fill="rgb(113,73,58)" fill-opacity="1" />
-<polygon points="201,124 174,31 255,39" id="1" fill="rgb(255,255,223)" fill-opacity="0.501961" />
-<polygon points="37,63 42,158 186,76" id="2" fill="rgb(248,159,127)" fill-opacity="0.501961" />
-<polygon points="67,0 137,0 171,94" id="3" fill="rgb(255,70,36)" fill-opacity="0.501961" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="158" baseProfile="tiny" version="1.2" viewBox="0 0 256 158"><rect id="0" width="256" height="158" x="0" y="0" fill="#71493A" fill-opacity="1"/><polygon id="1" fill="#FFFFDF" fill-opacity=".502" points="201 124 174 31 255 39"/><polygon id="2" fill="#F89F7F" fill-opacity=".502" points="37 63 42 158 186 76"/><polygon id="3" fill="#FF4624" fill-opacity=".502" points="67 0 137 0 171 94"/></svg>
