@@ -1,0 +1,36 @@
+/*!
+ *  Spatial Plugin - Adds support for stereo and 3D audio where Web Audio is supported.
+ *  
+ *  howler.js v2.0.4
+ *  howlerjs.com
+ *
+ *  (c) 2013-2017, James Simpson of GoldFire Studios
+ *  goldfirestudios.com
+ *
+ *  MIT License
+ */
+
+/*!
+ *  howler.js v2.0.4
+ *  howlerjs.com
+ *
+ *  (c) 2013-2017, James Simpson of GoldFire Studios
+ *  goldfirestudios.com
+ *
+ *  MIT License
+ */
+
+/*!
+* svg.js - A lightweight library for manipulating and animating SVG.
+* @version 2.6.2
+* https://svgdotjs.github.io/
+*
+* @copyright Wout Fierens <wout@mick-wout.com>
+* @license MIT
+*
+* BUILT: Mon Jun 05 2017 11:33:23 GMT+0200 (Mitteleuropäische Sommerzeit)
+*/
+
+/*! Player.js - v0.0.11 - 2015-07-24
+* http://github.com/embedly/player.js
+* Copyright (c) 2015 Embedly; Licensed BSD */
