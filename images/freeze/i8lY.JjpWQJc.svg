@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" width="256" height="68" viewBox="0 0 256 68">
+<rect x="0" y="0" width="256" height="68" id="0" fill="rgb(64,99,147)" fill-opacity="1" />
+<polygon points="0,14 187,68 0,27" id="1" fill="rgb(143,204,255)" fill-opacity="0.501961" />
+<polygon points="169,57 192,43 31,18" id="2" fill="rgb(2,6,8)" fill-opacity="0.501961" />
+<polygon points="152,68 0,32 107,68" id="3" fill="rgb(0,2,11)" fill-opacity="0.501961" />
+<polygon points="169,43 0,1 105,11" id="4" fill="rgb(139,189,255)" fill-opacity="0.501961" />
+<polygon points="0,39 100,68 11,56" id="5" fill="rgb(135,206,255)" fill-opacity="0.501961" />
+<polygon points="58,0 176,30 187,16" id="6" fill="rgb(3,11,33)" fill-opacity="0.501961" />
+<polygon points="170,45 203,39 256,4" id="7" fill="rgb(0,1,9)" fill-opacity="0.501961" />
+</svg>
