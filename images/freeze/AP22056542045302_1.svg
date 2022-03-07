@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" width="256" height="170" viewBox="0 0 256 170">
+<rect x="0" y="0" width="256" height="170" id="0" fill="rgb(33,30,26)" fill-opacity="1" />
+<polygon points="133,10 119,102 202,81" id="1" fill="rgb(163,159,158)" fill-opacity="0.501961" />
+<polygon points="131,87 179,69 121,75" id="2" fill="rgb(255,255,255)" fill-opacity="0.501961" />
+<polygon points="121,170 216,50 256,170" id="3" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="256,25 256,0 94,0" id="4" fill="rgb(102,95,78)" fill-opacity="0.501961" />
+<polygon points="187,67 212,0 89,71" id="5" fill="rgb(85,54,32)" fill-opacity="0.501961" />
+<polygon points="95,170 129,0 0,170" id="6" fill="rgb(6,5,0)" fill-opacity="0.501961" />
+<polygon points="128,170 110,170 97,143" id="7" fill="rgb(159,180,182)" fill-opacity="0.501961" />
+<polygon points="174,19 0,37 3,0" id="8" fill="rgb(3,5,0)" fill-opacity="0.501961" />
+<polygon points="118,103 191,70 196,113" id="9" fill="rgb(72,45,73)" fill-opacity="0.501961" />
+<polygon points="256,142 38,90 137,170" id="10" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="166,38 155,51 186,45" id="11" fill="rgb(235,171,139)" fill-opacity="0.501961" />
+<polygon points="206,92 256,41 200,0" id="12" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="123,39 146,19 120,71" id="13" fill="rgb(184,152,125)" fill-opacity="0.501961" />
+<polygon points="63,0 97,146 128,100" id="14" fill="rgb(29,35,27)" fill-opacity="0.501961" />
+<polygon points="150,100 163,69 128,77" id="15" fill="rgb(170,202,213)" fill-opacity="0.501961" />
+<polygon points="123,69 170,13 175,28" id="16" fill="rgb(6,6,4)" fill-opacity="0.501961" />
+<polygon points="173,73 139,103 256,86" id="17" fill="rgb(36,51,61)" fill-opacity="0.501961" />
+<polygon points="210,108 145,94 136,110" id="18" fill="rgb(121,20,38)" fill-opacity="0.501961" />
+<polygon points="49,170 0,170 0,98" id="19" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="44,85 85,0 11,85" id="20" fill="rgb(66,66,50)" fill-opacity="0.501961" />
+<polygon points="38,150 55,183 64,155" id="21" fill="rgb(132,1,0)" fill-opacity="0.501961" />
+<polygon points="182,27 208,26 172,11" id="22" fill="rgb(127,124,102)" fill-opacity="0.501961" />
+<polygon points="256,7 236,7 243,22" id="23" fill="rgb(171,148,138)" fill-opacity="0.501961" />
+<polygon points="256,81 222,109 232,65" id="24" fill="rgb(82,75,58)" fill-opacity="0.501961" />
+<polygon points="256,143 209,69 173,170" id="25" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="108,10 168,17 236,60" id="26" fill="rgb(21,15,12)" fill-opacity="0.501961" />
+<polygon points="241,161 256,151 256,141" id="27" fill="rgb(126,130,125)" fill-opacity="0.501961" />
+<polygon points="220,58 227,74 138,61" id="28" fill="rgb(17,5,1)" fill-opacity="0.501961" />
+<polygon points="127,99 126,82 159,91" id="29" fill="rgb(102,142,156)" fill-opacity="0.501961" />
+<polygon points="109,170 74,135 60,170" id="30" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="0,16 84,0 19,37" id="31" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="7,86 119,61 127,106" id="32" fill="rgb(30,35,27)" fill-opacity="0.501961" />
+<polygon points="204,101 229,111 256,60" id="33" fill="rgb(57,57,47)" fill-opacity="0.501961" />
+<polygon points="242,105 126,164 247,170" id="34" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="114,74 187,41 195,61" id="35" fill="rgb(101,65,49)" fill-opacity="0.501961" />
+<polygon points="69,52 145,16 56,44" id="36" fill="rgb(0,2,0)" fill-opacity="0.501961" />
+<polygon points="144,48 159,66 125,55" id="37" fill="rgb(23,17,10)" fill-opacity="0.501961" />
+<polygon points="116,57 123,1 141,6" id="38" fill="rgb(37,31,25)" fill-opacity="0.501961" />
+</svg>
