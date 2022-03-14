@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" width="256" height="170" viewBox="0 0 256 170">
+<rect x="0" y="0" width="256" height="170" id="0" fill="rgb(49,44,44)" fill-opacity="1" />
+<polygon points="256,131 17,130 148,15" id="1" fill="rgb(109,100,96)" fill-opacity="0.501961" />
+<polygon points="0,37 119,-16 256,24" id="2" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="0,170 256,169 0,124" id="3" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="256,54 256,85 0,72" id="4" fill="rgb(103,96,95)" fill-opacity="0.501961" />
+<polygon points="0,0 256,0 256,34" id="5" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="196,158 256,170 256,101" id="6" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="40,56 13,-8 -7,31" id="7" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="0,143 9,47 153,96" id="8" fill="rgb(79,73,71)" fill-opacity="0.501961" />
+<polygon points="75,75 133,55 136,123" id="9" fill="rgb(118,111,110)" fill-opacity="0.501961" />
+<polygon points="52,0 24,0 52,27" id="10" fill="rgb(105,104,109)" fill-opacity="0.501961" />
+<polygon points="67,64 21,149 75,61" id="11" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="256,124 186,46 202,139" id="12" fill="rgb(55,49,46)" fill-opacity="0.501961" />
+<polygon points="142,21 230,55 73,65" id="13" fill="rgb(69,64,63)" fill-opacity="0.501961" />
+<polygon points="164,15 48,0 59,38" id="14" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="201,11 219,11 213,-18" id="15" fill="rgb(109,103,113)" fill-opacity="0.501961" />
+<polygon points="22,66 26,57 -5,34" id="16" fill="rgb(133,132,138)" fill-opacity="0.501961" />
+<polygon points="239,98 183,50 256,122" id="17" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="73,133 0,170 127,131" id="18" fill="rgb(1,1,1)" fill-opacity="0.501961" />
+<polygon points="148,30 256,26 256,-2" id="19" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+</svg>
