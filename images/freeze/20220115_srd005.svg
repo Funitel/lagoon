@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" width="256" height="144" viewBox="0 0 256 144">
+<rect x="0" y="0" width="256" height="144" id="0" fill="rgb(235,223,205)" fill-opacity="1" />
+<polygon points="164,123 113,0 197,72" id="1" fill="rgb(190,97,0)" fill-opacity="0.501961" />
+<polygon points="143,51 196,75 142,110" id="2" fill="rgb(226,106,0)" fill-opacity="0.501961" />
+<polygon points="33,119 96,52 255,10" id="3" fill="rgb(245,255,255)" fill-opacity="0.501961" />
+<polygon points="109,48 123,19 146,31" id="4" fill="rgb(116,41,0)" fill-opacity="0.501961" />
+<polygon points="122,128 187,127 56,126" id="5" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="0,0 216,0 94,27" id="6" fill="rgb(250,248,243)" fill-opacity="0.501961" />
+<polygon points="66,89 67,95 110,121" id="7" fill="rgb(36,40,47)" fill-opacity="0.501961" />
+<polygon points="146,43 67,76 132,126" id="8" fill="rgb(255,255,255)" fill-opacity="0.501961" />
+<polygon points="146,54 141,101 185,102" id="9" fill="rgb(247,130,0)" fill-opacity="0.501961" />
+<polygon points="213,144 157,0 256,0" id="10" fill="rgb(245,240,232)" fill-opacity="0.501961" />
+<polygon points="0,144 0,0 83,122" id="11" fill="rgb(249,245,236)" fill-opacity="0.501961" />
+<polygon points="116,28 120,41 154,40" id="12" fill="rgb(108,48,0)" fill-opacity="0.501961" />
+<polygon points="102,114 159,103 191,126" id="13" fill="rgb(242,255,255)" fill-opacity="0.501961" />
+<polygon points="94,66 86,39 91,35" id="14" fill="rgb(45,51,60)" fill-opacity="0.501961" />
+<polygon points="189,76 175,109 154,57" id="15" fill="rgb(209,119,0)" fill-opacity="0.501961" />
+<polygon points="159,41 181,61 166,42" id="16" fill="rgb(0,7,30)" fill-opacity="0.501961" />
+<polygon points="184,51 75,40 158,58" id="17" fill="rgb(247,255,255)" fill-opacity="0.501961" />
+<polygon points="202,71 187,59 183,93" id="18" fill="rgb(126,149,169)" fill-opacity="0.501961" />
+<polygon points="66,71 66,87 71,97" id="19" fill="rgb(11,14,23)" fill-opacity="0.501961" />
+</svg>
