@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" width="256" height="170" viewBox="0 0 256 170">
+<rect x="0" y="0" width="256" height="170" id="0" fill="rgb(62,57,55)" fill-opacity="1" />
+<polygon points="256,0 222,107 0,0" id="1" fill="rgb(172,159,134)" fill-opacity="0.501961" />
+<polygon points="256,49 256,170 0,167" id="2" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="256,168 14,170 0,67" id="3" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="0,0 0,55 80,40" id="4" fill="rgb(192,161,124)" fill-opacity="0.501961" />
+<polygon points="33,124 39,44 54,116" id="5" fill="rgb(195,202,225)" fill-opacity="0.501961" />
+<polygon points="237,11 256,30 228,72" id="6" fill="rgb(255,255,237)" fill-opacity="0.501961" />
+<polygon points="157,76 233,82 172,120" id="7" fill="rgb(84,135,188)" fill-opacity="0.501961" />
+<polygon points="200,110 232,32 196,52" id="8" fill="rgb(4,0,0)" fill-opacity="0.501961" />
+<polygon points="183,43 209,37 189,65" id="9" fill="rgb(255,255,255)" fill-opacity="0.501961" />
+<polygon points="36,52 162,99 102,170" id="10" fill="rgb(0,0,12)" fill-opacity="0.501961" />
+<polygon points="134,67 94,27 132,82" id="11" fill="rgb(237,222,249)" fill-opacity="0.501961" />
+<polygon points="245,36 256,43 256,6" id="12" fill="rgb(255,255,255)" fill-opacity="0.501961" />
+<polygon points="165,0 107,32 155,56" id="13" fill="rgb(205,179,152)" fill-opacity="0.501961" />
+<polygon points="89,25 88,5 0,41" id="14" fill="rgb(30,20,6)" fill-opacity="0.501961" />
+<polygon points="185,61 142,68 125,48" id="15" fill="rgb(13,14,3)" fill-opacity="0.501961" />
+<polygon points="256,98 184,100 224,170" id="16" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="38,95 15,170 0,51" id="17" fill="rgb(0,0,0)" fill-opacity="0.501961" />
+<polygon points="81,87 71,94 70,33" id="18" fill="rgb(135,135,156)" fill-opacity="0.501961" />
+<polygon points="43,71 32,58 15,76" id="19" fill="rgb(203,177,170)" fill-opacity="0.501961" />
+</svg>
