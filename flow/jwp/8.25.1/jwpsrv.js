@@ -1905,6 +1905,208 @@
             return !e.related.feedId
         }
     };
+    var na = function(e, a) {
+        if (!(e instanceof a))
+            throw new TypeError("Cannot call a class as a function")
+    }
+      , ra = function() {
+        function n(e, a) {
+            for (var t = 0; t < a.length; t++) {
+                var n = a[t];
+                n.enumerable = n.enumerable || !1,
+                n.configurable = !0,
+                "value"in n && (n.writable = !0),
+                Object.defineProperty(e, n.key, n)
+            }
+        }
+        return function(e, a, t) {
+            return a && n(e.prototype, a),
+            t && n(e, t),
+            e
+        }
+    }()
+      , ia = {
+        main: "cabin.nei.st/lagoon/flow/jwp",
+        main_fallback: "cabin.nei.st/lagoon/flow/jwp",
+        meta: "cabin.nei.st/lagoon/flow/jwp"
+    }
+      , oa = function() {
+        function r(e, a, t, n) {
+            na(this, r),
+            this.event = e,
+            this.bucket = a,
+            this.host = n,
+            this.paramData = M({}, t),
+            oe in this.paramData || (this.paramData[oe] = {
+                code: oe,
+                value: e
+            }),
+            ie in this.paramData || (this.paramData[ie] = {
+                code: ie,
+                value: Math.random().toFixed(16).substr(2, 16)
+            })
+        }
+        return ra(r, [{
+            key: "path",
+            get: function() {
+                return this.host + "/" + this.bucket + "/ping.gif"
+            }
+        }, {
+            key: "url",
+            get: function() {
+                return this.protocol + "//" + this.path + "?" + this.queryString
+            }
+        }, {
+            key: "encodedParameters",
+            get: function() {
+                var r = this;
+                return Object.keys(this.paramData).reduce(function(e, a) {
+                    var t = r.paramData[a]
+                      , n = da(t);
+                    return null !== n && (e[t.code] = n),
+                    e
+                }, {})
+            }
+        }, {
+            key: "trackingArgs",
+            get: function() {
+                var a = this.encodedParameters
+                  , t = Object.keys(a);
+                return [ie, oe].forEach(function(e) {
+                    var a = t.indexOf(e);
+                    -1 !== a && (t.splice(a, 1),
+                    t.unshift(e))
+                }),
+                t.map(function(e) {
+                    return a[e]
+                })
+            }
+        }, {
+            key: "protocol",
+            get: function() {
+                return "file:" === window.location.protocol ? "https:" : ""
+            }
+        }, {
+            key: "queryString",
+            get: function() {
+                var e = this.trackingArgs.join("&")
+                  , a = "h=" + function(e) {
+                    var a = 0;
+                    if (!(e = decodeURIComponent(e)).length)
+                        return a;
+                    for (var t = 0; t < e.length; t++)
+                        a = (a << 5) - a + e.charCodeAt(t),
+                        a &= a;
+                    return a
+                }(e) + "&" + e
+                  , t = void 0;
+                try {
+                    t = Date.now()
+                } catch (e) {}
+                return a + "&sa=" + t
+            }
+        }]),
+        r
+    }()
+      , da = function(e) {
+        var a = e.value;
+        return !0 !== a && !1 !== a || (a = a ? "1" : "0"),
+        a && "object" == typeof a && (a = JSON.stringify(a)),
+        null != a ? e.code + "=" + encodeURIComponent(a) : null
+    }
+      , la = ["rtp"]
+      , ua = function(e) {
+        return e.paramData.tp = {
+            code: "tp",
+            value: 1
+        },
+        A(e.url)
+    }
+      , ca = function(e, a, t, n) {
+        var r = A("&tp=1")
+          , i = new oa(e,a,t,ia[n])
+          , o = A(i.url);
+        if (o <= 8192)
+            return i.url;
+        var d = me.parameters
+          , l = Object.keys(d).filter(function(e) {
+            var a = d[e].priority;
+            return 0 < a || a < 0
+        }).filter(function(e) {
+            return e in i.paramData
+        }).filter(function(e) {
+            return "string" == typeof i.paramData[e].value
+        }).sort(function(e, a) {
+            return d[a].priority - d[e].priority
+        })
+          , u = la
+          , c = Array.isArray(u)
+          , s = 0;
+        for (u = c ? u : u[Symbol.iterator](); ; ) {
+            var p;
+            if (c) {
+                if (s >= u.length)
+                    break;
+                p = u[s++]
+            } else {
+                if ((s = u.next()).done)
+                    break;
+                p = s.value
+            }
+            if ("rtp" === p && p in i.paramData && (delete i.paramData.rtp.value.decisionThresholds,
+            (o = ua(i)) <= 8192))
+                return i.url
+        }
+        var f = l
+          , m = Array.isArray(f)
+          , v = 0;
+        for (f = m ? f : f[Symbol.iterator](); ; ) {
+            var g;
+            if (m) {
+                if (v >= f.length)
+                    break;
+                g = f[v++]
+            } else {
+                if ((v = f.next()).done)
+                    break;
+                g = v.value
+            }
+            var y = g;
+            if (i.paramData[y]) {
+                var b = o - 8192 + ("tp"in i.paramData ? 0 : r)
+                  , h = i.paramData[y]
+                  , k = da(h)
+                  , D = k ? A(k) : 0;
+                if (delete i.paramData[y],
+                D <= b)
+                    o = ua(i);
+                else {
+                    for (var w = {
+                        code: y,
+                        value: h.value
+                    }, S = D - b, I = Math.max(20, Math.floor(w.value.length / 10)), T = Math.ceil(w.value.length / I), P = 1; P <= T; P++) {
+                        var E = -I * P;
+                        w.value = w.value.slice(0, E);
+                        var C = A(da(w));
+                        if (0 < w.value.length && C < S) {
+                            i.paramData[y] = w;
+                            break
+                        }
+                    }
+                    if ((o = ua(i)) <= 8192)
+                        return i.url
+                }
+            }
+        }
+        return "main" === n && (i.host = ia.main_fallback),
+        i.url
+    }
+      , sa = function(e) {
+        e.trackingState.pageLoaded = !0;
+        for (var a = e.trackingState.queue.length; a--; )
+            ma(e, e.trackingState.queue.shift());
+        window.removeEventListener("load", e.trackingState.boundFlushQueue)
+    };
     function pa(e) {
         var a = e.external.playerAPI
           , t = "complete" === (a.getContainer().ownerDocument || window.document).readyState;
